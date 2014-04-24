@@ -436,7 +436,7 @@ if __name__ == "__main__":
                                 key/value pairs. If there are also key/value
                                 pairs they will be applied after the patch
                                 file""")
-    parser.add_argument('overrides', nargs='*', default=[],
+    parser.add_argument('--overrides', nargs='*', default=[],
                         help="""key value pairs to modify. The key is
                                 section.key where section is a section header
                                 in the conf file.
